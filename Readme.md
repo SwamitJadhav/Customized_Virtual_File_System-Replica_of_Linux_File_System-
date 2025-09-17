@@ -1,6 +1,6 @@
-# Marvellous CVFS - Architecture Documentation
+# Linux CVFS - Architecture Documentation
 
-This document provides a detailed architectural overview of the Marvellous Custom Virtual File System (CVFS), explaining its design principles, components, and data flow.
+This document provides a detailed architectural overview of the Linux Custom Virtual File System (CVFS), explaining its design principles, components, and data flow.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This document provides a detailed architectural overview of the Marvellous Custo
 
 ## System Overview
 
-Marvellous CVFS is a simplified file system implementation that simulates core Unix-like file system operations. It provides a virtual file system layer that manages files, directories, and metadata without requiring actual disk storage.
+Linux CVFS is a simplified file system implementation that simulates core Unix-like file system operations. It provides a virtual file system layer that manages files, directories, and metadata without requiring actual disk storage.
 
 ### Key Design Principles
 
@@ -435,4 +435,4 @@ The current design has inherent scalability limitations:
 
 ---
 
-This architecture documentation provides a comprehensive understanding of the Marvellous CVFS design and implementation. The system demonstrates fundamental file system concepts while maintaining simplicity for educational purposes.
+This architecture documentation provides a comprehensive understanding of the Linux CVFS design and implementation. The system demonstrates fundamental file system concepts while maintaining simplicity for educational purposes.
